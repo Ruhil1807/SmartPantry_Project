@@ -1,27 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
 # Virtual environment
 .venv/
+venv/
+ENV/
+env/
+*.egg-info/
 
-# Python cache
-__pycache__/
-*.pyc
-
-# Environment files
+# Environment variables
 .env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Logs & temp files
+# Logs
 *.log
-*.tmp
-
-# IDE/editor files
-.vscode/
-.idea/
 
 # Streamlit cache
 .streamlit/
 
-# Node or npm if any frontend work
-node_modules/
+# Python egg metadata
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE files
+.idea/
+*.swp
+
+# Test coverage
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Local MongoDB dump files
+dump/
+
+# User uploads
+static/uploads/
