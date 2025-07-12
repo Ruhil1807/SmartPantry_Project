@@ -1,3 +1,5 @@
+# to run  streamlit run app_streamlit.py
+
 import streamlit as st
 from datetime import datetime, timedelta
 from werkzeug.security import generate_password_hash, check_password_hash
