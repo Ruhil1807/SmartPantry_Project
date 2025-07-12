@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs & temp files
+*.log
+*.tmp
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/
+
+# Node or npm if any frontend work
+node_modules/
