@@ -1,6 +1,8 @@
 streamlit
-pymongo
-werkzeug
 pandas
+pymongo
+python-dotenv
+scikit-learn
+numpy
 plotly
-fpdf
+werkzeug
