@@ -197,3 +197,5 @@ elif st.session_state.page == "dashboard":
         st.session_state.page = "login"
         st.rerun()
 
+
+# to run streamlit run app_streamlit.py
